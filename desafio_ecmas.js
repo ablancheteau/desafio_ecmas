@@ -45,14 +45,14 @@ class ProductManager {
   }
 
     // Ejemplo de uso
-    const productManager = new ProductManager();
+    // const productManager = new ProductManager();
   
-    productManager.addProduct("Camiseta", "Camiseta de algodón", 20, "camiseta.jpg", "CAM001", 50);
-    productManager.addProduct("Pantalón", "Pantalón vaquero", 30, "pantalon.jpg", "PAN001", 30);
+    // productManager.addProduct("Camiseta", "Camiseta de algodón", 20, "camiseta.jpg", "CAM001", 50);
+    // productManager.addProduct("Pantalón", "Pantalón vaquero", 30, "pantalon.jpg", "PAN001", 30);
     
-    console.log("Todos los productos:", productManager.getProducts());
+    // console.log("Todos los productos:", productManager.getProducts());
     
-    const product = productManager.getProductById(1);
-    console.log("Producto con ID 1:", product);
+    // const product = productManager.getProductById(1);
+    // console.log("Producto con ID 1:", product);
     
-    const nonExistentProduct = productManager.getProductById(3);  
+    // const nonExistentProduct = productManager.getProductById(3);  
